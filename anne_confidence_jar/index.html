@@ -40,24 +40,17 @@
     button:hover {
       background-color: #c24f92;
     }
-    .profile-pic {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 16px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
   </style>
 </head>
 <body>
   <div class="welcome" id="welcomeScreen">
-    <img src="anne.jpg" alt="Anne's photo" class="profile-pic" />
+    <img src="anne.jpg" alt="Anne's photo" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin-bottom: 16px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
     <h2>Welcome, Anne 💖</h2>
     <p>This is your personal confidence deck — a space made just for you.</p>
     <p>Whenever you need a reminder of your light, click below to receive it.</p>
     <button onclick="startApp()">Start My Day</button>
   </div>
+
 
   <div class="card" id="quoteCard" style="display: none;">
     Loading confidence magic...
